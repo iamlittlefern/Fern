@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--
+            Sub-heading : Payment Methods page
+            Author: Nang Khong Kham
+            Date: 18 May 2019
+
+            Filename: payment_methods.html
+
+        -->
+    <meta charset="utf-8" />
+    <title> Payment Methods </title>
+    <link href="styles.css" rel="stylesheet" />
+    <link href="middlenav.css" rel="stylesheet" />
+    <link href="subheadpages.css" rel="stylesheet" />
+    <link href="Image/favicon.png" rel="icon" type="image/png" />
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+        integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+</head>
+
+<a name="top"></a>
+
+<body>
+    <header>
+        <nav id="toplinks">
+            <a href="#"> <i class="fas fa-globe"></i> </a> |
+            <a href="#"> <i class="fas fa-dollar-sign"></i> </a> |
+            <a href="#"> Sign In</a> |
+            <a href="#"> Sign Up</a>
+        </nav>
+        <h1><a href="index.html"><img src="Image/logo.png" alt="logo"></a></h1>
+        <div class="search-box-wrapper">
+            <input type="text" placeholder="" class="search-box-input">
+            <button class="search-box-button"> <i class='fas fa-search'></i> </button>
+        </div>
+        <nav class="sitenavigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <div class="dropdown">
+                    <li><a href="category.html">Category &#11167;</a></li>
+                    <div class="droplists">
+                        <a href="category.html"> Beauty & Personal Care </a>
+                        <a href="category.html"> Electronic Devices </a>
+                        <a href="category.html"> Food & Beverages </a>
+                        <a href="category.html"> Kids Fashion</a>
+                        <a href="category.html"> Men's Fashion</a>
+                        <a href="category.html"> Women's Fashion </a>
+                    </div>
+                </div>
+                <li><a href="news_and_promotions.html">News and Promotions</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="about_us.html">About us</a></li>
+                <li><a href="sell.html">Sell</a></li>
+            </ul>
+        </nav>
+        <nav class="cart">
+            <li><a href="#" class="cart">
+                    <span><i class='fas fa-cart-arrow-down' class="carticon"></i></span>
+                    <span class="badge">5</span>
+                </a>
+            </li>
+        </nav>
+    </header>
+
+    <div class="middlenav">
+        <button class="homeicon"><a href="index.html"> <i class='fas fa-home'></i> </a></button>
+        <i class='fas fa-caret-right'></i> &nbsp; <a href="help.html" class="nav">Help</a>
+        &nbsp; <i class='fas fa-caret-right'></i> &nbsp; <a href="payment_methods.html" class="nav"> Payment Methods
+        </a>
+    </div>
+
+    <section>
+        <div class="container">
+            <h1> Payment Methods </h1>
+            <hr>
+            <div class="methods">
+                <p> We accept : </p>
+                <ul>
+                    <li> <i class="fab fa-cc-visa"></i> Visa Card </li>
+                    <li> Credit card / Debit Card from the following banks: </li>
+                    <div class="banklists">
+                        <ul>
+                            <li> OCBC</li>
+                            <li> DBS </li>
+                            <li> UOB </li>
+                            <li> Citybank </li>
+                            <li> Maybank </li>
+                        </ul>
+                    </div>
+                    <li> <i class="fab fa-cc-paypal"></i> Paypal </li>
+                    <li> <i class="fab fa-cc-mastercard"></i> Master Card </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <nav class="footernavi">
+                <ul>
+                    <li><a href="#">Terms of Condition</a></li>
+                    <li><a href="#">Privacy Notice</a></li>
+                    <li><a href="image_attributions.html"> Image Attributions </a></li>
+                    <li> <i class='far fa-copyright'></i> Fehu 2019. All Rights Reserved. </li>
+                </ul>
+            </nav>
+        </div>
+
+        <button onclick="topFunction()" id="backtotop" title="Go to top"><i class='fas fa-chevron-up'></i></button>
+    </footer>
+
+    <script src="backtotop.js"></script>
+</body>
+
+</html>

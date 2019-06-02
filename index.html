@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--
+            Index Page of Fehu
+            Author: Nang Khong Kham
+            Date: 10 May 2019
+
+            Filename: index.html
+
+        -->
+    <meta charset="utf-8" />
+    <meta keywords="online, shopping, products" />
+    <title> Index.html </title>
+    <link href="styles.css" rel="stylesheet" />
+    <link href="index.css" rel="stylesheet" />
+    <link href="Image/favicon.png" rel="icon" type="image/png" />
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+        integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+</head>
+
+<a name="top"></a>
+
+<body>
+    <header>
+        <nav id="toplinks">
+            <a href="#"> <i class="fas fa-globe"></i> </a> |
+            <a href="#"> <i class="fas fa-dollar-sign"></i> </a> |
+            <a href="#"> Sign In</a> |
+            <a href="#"> Sign Up</a>
+        </nav>
+        <h1><a href="index.html"><img src="Image/logo.png" alt="logo"></a></h1>
+        <div class="search-box-wrapper">
+            <input type="text" placeholder="" class="search-box-input">
+            <button class="search-box-button"> <i class='fas fa-search'></i> </button>
+        </div>
+        <nav class="sitenavigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <div class="dropdown">
+                    <li><a href="category.html">Category &#11167;</a></li>
+                    <div class="droplists">
+                        <div class="nav1">
+                            <a href="category.html"> Beauty & Personal Care &nbsp; &#11166;
+                            </a>
+                            <div class="beauty_and_personalcare">
+                                <a href="category.html"> Bath & Body </a>
+                                <a href="category.html"> Beauty Tool </a>
+                                <a href="category.html"> Fragrance </a>
+                                <a href="category.html"> Hair Care </a>
+                                <a href="category.html"> Makeup </a>
+                                <a href="category.html"> Skincare </a>
+                            </div>
+                        </div>
+                        <div class="nav2">
+                            <a href="category.html" class="nav2"> Electronic Devices &nbsp; &#11166; </a>
+                            <div class="electronic_devices">
+                                <a href="category.html">Accessories & Supplies </a>
+                                <a href="category.html">Computers & Laptops </a>
+                                <a href="category.html"> Headphone </a>
+                                <a href="category.html"> Television & Video </a>
+                            </div>
+                        </div>
+                        <div class="nav3">
+                            <a href="category.html"> Food & Beverages &nbsp; &#11166;</a>
+                            <div class="food_and_beverages">
+                                <a href="category.html"> Beverages </a>
+                                <a href="category.html"> Snacks & Sweets </a>
+                            </div>
+                        </div>
+                        <div class="nav4">
+                            <a href="category.html"> Kids Fashion &nbsp; &#11166;</a>
+                            <div class="kids_fashion">
+                                <a href="category.html"> Baby & Toddler Apparel </a>
+                                <a href="category.html"> Boy's Apparel </a>
+                                <a href="category.html"> Girl's Apparel </a>
+                            </div>
+                        </div>
+                        <div class="nav5">
+                            <a href="category.html"> Men's Fashion &nbsp; &#11166;</a>
+                            <div class="mens_fashion">
+                                <a href="category.html"> Accessories </a>
+                                <a href="category.html"> Clothing </a>
+                                <a href="category.html"> Shoes </a>
+                                <a href="category.html"> Watches </a>
+                            </div>
+                        </div>
+                        <div class="nav6">
+                            <a href="category.html"> Women's Fashion &nbsp; &#11166;</a>
+                            <div class="womens_fashion">
+                                <a href="category.html"> Accessories </a>
+                                <a href="category.html"> Clothing </a>
+                                <a href="category.html"> Handbags & Wallets </a>
+                                <a href="category.html"> Jewelry </a>
+                                <a href="category.html"> Shoes </a>
+                                <a href="category.html"> Watches </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <li><a href="news_and_promotions.html">News and Promotions</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="about_us.html">About us</a></li>
+                <li><a href="sell.html">Sell</a></li>
+            </ul>
+        </nav>
+        <nav class="cart">
+            <li><a href="#" class="cart">
+                    <span><i class='fas fa-cart-arrow-down' class="carticon"></i> </span>
+                    <span class="badge">5</span>
+                </a>
+            </li>
+        </nav>
+    </header>
+
+    <body>
+        <section>
+            <div class="slidecontainer">
+                <div class="slide">
+                    <a id="image1"><img src="Image/image1.jpg" alt="Slide_image1"></a>
+                </div>
+                <div class="slide">
+                    <a id="image2"><img src="Image/image2.jpg" alt="Slide_image2"></a>
+                </div>
+                <div class="slide">
+                    <a id="image3"><img src="Image/image3.jpg" alt="Slide_image3"></a>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)"> &#10094; </a>
+                <a class="next" onclick="plusSlides(1)"> &#10095; </a>
+                <br>
+            </div>
+
+            <div style="text-align: center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+
+        <section>
+            <div class="hotsection">
+                <h1 class="subhead"> Hot <img src="Image/fireicon.png" alt="fireicon"> </h1>
+                <div class="hotimg">
+                    <a id="image4"><img src="Image/Image4.jpg" alt="productimage4" class="image"></a>
+                    <div class="middle">
+                        <div class="text"> Wireless Mouse : $32 </div>
+                    </div>
+                </div>
+                <div class="hotimg">
+                    <a id="image5"><img src="Image/Image5.jpg" alt="productimage5" class="image1"></a>
+                    <div class="middle1">
+                        <div class="text1"> Whey Protein Bar : $12 </div>
+                    </div>
+                </div>
+                <div class="hotimg">
+                    <a id="image6"><img src="Image/Image6.jpg" alt="productimage6" class="image2"></a>
+                    <div class="middle2">
+                        <div class="text2"> Old Jamaica Ginger Beer : $2 </div>
+                    </div>
+                </div>
+                <div class="hotimg">
+                    <a id="image7"><img src="Image/Image7.jpg" alt="productimage7" class="image3"></a>
+                    <div class="middle3">
+                        <div class="text3"> Nom Organic Cinnamon Maple : $4 </div>
+                    </div>
+                </div>
+
+                <a class="prev1"> &#10094; </a>
+                <a class="next1"> &#10095; </a>
+            </div>
+        </section>
+
+        <section>
+            <div class="newrelease">
+                <h1 class="subhead"> New Release <img src="Image/newicon.png" alt="newicon">
+                </h1>
+                <div class="newreleaseimg">
+                    <a id="image8"><img src="Image/Image8.jpg" alt="productimage8" class="image4"></a>
+                    <div class="middle4">
+                        <div class="text4"> LANCOME Hydra Zen : $57</div>
+                    </div>
+                </div>
+                <div class="newreleaseimg">
+                    <a id="image9"><img src="Image/Image9.jpg" alt="productimage9" class="image5"></a>
+                    <div class="middle5">
+                        <div class="text5"> LANCOME Tonique Confort : $70 </div>
+                    </div>
+                </div>
+                <div class="newreleaseimg">
+                    <a id="image10"><img src="Image/Image10.jpg" alt="productimage10" class="image6"></a>
+                    <div class="middle6">
+                        <div class="text6"> Diamond Dior Watch : $250 </div>
+                    </div>
+                </div>
+                <div class="newreleaseimg">
+                    <a id="image11"><img src="Image/Image11.jpg" alt="productimage11" class="image7"></a>
+                    <div class="middle7">
+                        <div class="text7"> Dior Perfume : $130 </div>
+                    </div>
+                </div>
+
+                <a class="prev2"> &#10094; </a>
+                <a class="next2"> &#10095; </a>
+            </div>
+        </section>
+
+        <section>
+            <div class="onsale">
+                <h1 class="subhead">On Sale<img src="Image/onsaleicon.png" alt="onsaleicon">
+                    &nbsp;
+                    <p id="countdowntimer"></p>
+                </h1>
+                <div class="onsaleimg">
+                    <a id="image12"><img src="Image/Image12.jpg" alt="productimage12" class="image8"></a>
+                    <div class="middle8">
+                        <div class="text8"> Apple Watch : $350</div>
+                    </div>
+                </div>
+                <div class="onsaleimg">
+                    <a id="image13"><img src="Image/Image13.jpg" alt="productimage13" class="image9"></a>
+                    <div class="middle9">
+                        <div class="text9"> iPhone X : $1256.62 </div>
+                    </div>
+                </div>
+                <div class="onsaleimg">
+                    <a id="image14"><img src="Image/Image14.jpg" alt="productimage14" class="image10"></a>
+                    <div class="middle10">
+                        <div class="text10"> Canon Camera : $450</div>
+                    </div>
+                </div>
+                <div class="onsaleimg">
+                    <a id="image15"><img src="Image/Image15.jpg" alt="productimage15" class="image11"></a>
+                    <div class="middle11">
+                        <div class="text11"> iPad: $920</div>
+                    </div>
+                </div>
+                <a class="prev3"> &#10094; </a>
+                <a class="next3"> &#10095; </a>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer">
+                <nav class="footernavi">
+                    <ul>
+                        <li><a href="#">Terms of Condition</a></li>
+                        <li><a href="#">Privacy Notice</a></li>
+                        <li><a href="image_attributions.html"> Image Attributions </a></li>
+                        <li>&copy; Fehu 2019. All Rights Reserved. </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <button onclick="topFunction()" id="backtotop" title="Go to top"><i class='fas fa-chevron-up'></i></button>
+
+        </footer>
+
+        <script src="index.js"></script>
+        <script src="backtotop.js"></script>
+    </body>
+
+
+</html>
